@@ -1,0 +1,28 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# NetBeans
+nbproject/private/
+nbproject/build-impl.xml
+build/
+dist/
+nbbuild/
+*.nbattrs
+
+# Maven
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
