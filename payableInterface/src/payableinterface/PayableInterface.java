@@ -29,8 +29,8 @@ interface Payable {
 
 class Freelancer implements Payable {
 
-    private final double hourlyRate;
-    private final int hoursWorked;
+    public final double hourlyRate;
+    public final int hoursWorked;
 
     public Freelancer(double hourlyRate, int hoursWorked) {
         this.hourlyRate = hourlyRate;
@@ -45,7 +45,7 @@ class Freelancer implements Payable {
 
 class Employee implements Payable {
 
-    private final double monthlySalary;
+    public final double monthlySalary;
 
     public Employee(double monthlySalary) {
         this.monthlySalary = monthlySalary;
