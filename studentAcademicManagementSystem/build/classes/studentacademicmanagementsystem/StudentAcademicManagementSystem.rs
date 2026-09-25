@@ -1,4 +1,0 @@
-studentacademicmanagementsystem.FinalYearStudent
-studentacademicmanagementsystem.Person
-studentacademicmanagementsystem.Student
-studentacademicmanagementsystem.Main
